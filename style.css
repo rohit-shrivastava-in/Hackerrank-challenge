@@ -1,0 +1,27 @@
+#featureAnimation,#featureBox{
+	background-color:#fff;
+	overflow:hidden;
+	line-height:normal;
+	font-size:80%;
+	z-index:1000;
+}
+#featureAnimation{
+	position:fixed;
+	visibility:hidden;
+}
+#featureBox{
+	position:absolute;
+}
+.star{
+	position:absolute;
+	background-color:#161616;
+	display:none;
+	z-index:1001;
+}
+.dot{
+	position:absolute;
+	background-color:#91e600;
+}
+.page-box{
+	opacity:0;
+}
